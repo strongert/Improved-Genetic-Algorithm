@@ -1,5 +1,4 @@
 # Improved-Genetic-Algorithm
-# Improved Genetic Algorithm
 
 This repository contains a simplified but improved version of the Genetic Algorithm (GA) for solving permutation-based optimization problems (e.g., scheduling, TSP-like tasks).
 
@@ -21,4 +20,10 @@ This repository contains a simplified but improved version of the Genetic Algori
 ```python
 from your_script import simulate_fn  # Define your evaluation function
 
-best_ind, best_fit, history = ga_with_improvements(simulate_fn, N=20)
+best_ind, best_fit, history = ga_with_improvements(simulate_fn, N>=10)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+© 2025 [your_name]. All rights reserved.
